@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.scss";
 import { client } from "../../libs/client";
 import Link from "next/link";
 
@@ -20,7 +19,7 @@ export const getStaticProps = async () => {
 
 export default function Home({ mami }: props) {
   return (
-    <div className={styles.container}>
+    <div>
       <ul>
         {mami.map((mami: any) => (
           <li key={mami.id}>
