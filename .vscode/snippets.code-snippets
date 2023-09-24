@@ -1,0 +1,7 @@
+{
+  "media-mobile": {
+    "scope": "css, scss",
+    "prefix": "media-mobile",
+    "body": ["@media (--viewport-mobile) {", "\t$1", "}"]
+  }
+}

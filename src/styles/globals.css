@@ -1,0 +1,16 @@
+@custom-media --viewport-mobile (min-width: 768px);
+
+:root {
+  --normal-width: 1100px;
+  --wide-width: 1300px;
+  --window-padding-inline: 20px;
+
+  --border-radius-normal: 10px;
+  --border-radius-big: 20px;
+}
+
+@media (--viewport-mobile) {
+  :root {
+    --window-padding-inline: 50px;
+  }
+}

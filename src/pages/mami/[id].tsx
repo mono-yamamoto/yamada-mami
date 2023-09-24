@@ -1,5 +1,5 @@
 import { client } from "../../../libs/client";
-import styles from "./Home.module.scss";
+import styles from "./Home.module.css";
 
 export const getStaticProps = async (context: any) => {
   const id = context.params.id;
