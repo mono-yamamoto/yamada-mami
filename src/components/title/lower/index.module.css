@@ -1,0 +1,10 @@
+.lv1 {
+  font-size: 24px;
+  color: var(--black);
+  line-height: var(--line-height-normal);
+  text-align: center;
+
+  @media (--viewport-mobile) {
+    font-size: 36px;
+  }
+}

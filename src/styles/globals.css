@@ -7,10 +7,19 @@
 
   --border-radius-normal: 10px;
   --border-radius-big: 20px;
+
+  --black: #000;
+  --white: #fff;
+
+  --line-height-normal: 1.4;
 }
 
 @media (--viewport-mobile) {
   :root {
     --window-padding-inline: 50px;
   }
+}
+
+.contents-inner {
+  padding-inline: var(--window-padding-inline);
 }
