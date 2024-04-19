@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="ja">
       <Head>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" rel="stylesheet" />
       </Head>
       <body>
         <Main />
